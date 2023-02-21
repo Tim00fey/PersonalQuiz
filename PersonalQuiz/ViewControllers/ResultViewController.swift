@@ -34,7 +34,7 @@ final class ResultViewController: UIViewController {
 }
 
 
-extension ResultViewController {
+private extension ResultViewController {
     
     func identifyTheMostCommon(in answers: [Answer]) -> Animal {
         var countDog = 0
